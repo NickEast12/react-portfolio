@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Spring, useSpring, animated } from "react-spring";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { useSpring, animated } from "react-spring";
+import { Link } from "react-scroll";
 
 const Menu = () => {
   const [isToggled, setToggle] = useState(false);

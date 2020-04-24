@@ -4,10 +4,7 @@ import Mainwrapper from "./components/mainComponents/mainWrapper";
 
 class App extends Component {
   render() {
-    return (
-      //! keep
-      <Mainwrapper />
-    );
+    return <Mainwrapper />;
   }
 }
 

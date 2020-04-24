@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class Headerwrapper extends Component {
   render() {

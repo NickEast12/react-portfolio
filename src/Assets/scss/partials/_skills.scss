@@ -1,0 +1,167 @@
+@import "variables";
+
+@media only screen and (min-width: 320px) {
+  .skills__wrapper {
+    background: $otherFont;
+    height: 200vh;
+    padding-top: 2rem;
+
+    &__inner {
+      width: 85%;
+      margin: 0 auto;
+      padding: 2.5rem 0;
+      &__title {
+        padding-bottom: 0.5rem;
+        color: $demoBackground;
+        h2 {
+          font-size: 1.75rem;
+          font-weight: 400;
+        }
+        p {
+          font-size: 1rem;
+          line-height: 20px;
+          color: #bcbcbc;
+        }
+      }
+      &__sections {
+        margin-bottom: 0.5rem;
+        h4 {
+          font-size: 1.1rem;
+          font-weight: 400;
+          color: $demoBackground;
+        }
+        &__flex {
+          display: flex;
+          flex-flow: row wrap;
+          width: 100%;
+
+          p {
+            flex: auto;
+            font-size: 0.9rem;
+            color: $demoBackground;
+            border: solid 2px $demoBackground;
+            background: $demoColour;
+            padding: 0.35em;
+            margin: 0.25em 0.22em 0 0;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 1px;
+            font-weight: 500;
+            transition: all 0.4s ease-in-out;
+          }
+          // p:nth-child(4n + 1) {
+          //   width: 35%;
+          // }
+          // p:nth-child(4n + 1):nth-child(4n + 2) {
+          //   width: 40%;
+          // }
+          // p:nth-child(4n + 1):nth-child(4n + 3) {
+          //   width: 45%;
+          // }
+          // p:nth-child(4n + 1):nth-child(4n + 4) {
+          //   width: 20%;
+          // }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .skills__wrapper {
+    padding-top: 5rem;
+    &__inner {
+      &__title {
+        h2 {
+          font-size: 2.25rem;
+        }
+        p {
+          font-size: 1.05rem;
+          line-height: 25px;
+          color: #878897;
+        }
+      }
+      &__sections {
+        h4 {
+          font-size: 1.25rem;
+        }
+        &__flex {
+          p {
+            padding: 0.55em;
+            font-size: 0.98rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 414px) {
+  .skills__wrapper {
+    &__inner {
+      &__sections {
+        &__flex {
+          p {
+            padding: 0.85em;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .skills__wrapper {
+    &__inner {
+      padding-top: 5.5rem;
+      &__title {
+        width: 70%;
+        h2 {
+          font-size: 2.7rem;
+        }
+        p {
+          font-size: 1.25rem;
+        }
+      }
+      &__sections {
+        margin-top: 1.45rem;
+        width: 85%;
+
+        h4 {
+          font-size: 1.75rem;
+        }
+        p {
+          font-size: 1.15rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .skills__wrapper {
+    &__inner {
+      padding-top: 1rem;
+      &__title {
+        width: 70%;
+        h2 {
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: 1.15rem;
+        }
+      }
+      &__sections {
+        margin-top: 1.45rem;
+        width: 85%;
+
+        h4 {
+          font-size: 1.45rem;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

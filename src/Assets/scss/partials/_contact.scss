@@ -1,0 +1,224 @@
+@import "variables";
+
+@media only screen and (min-width: 320px) {
+  .contact__wrapper {
+    background: $demoBackground;
+    height: 100vh;
+    padding-top: 4rem;
+    .particles {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -2;
+    }
+
+    &__inner {
+      width: 85%;
+      margin: 0 auto;
+      padding: 2.5rem 0 0 0;
+      color: $demoColour;
+
+      h2 {
+        font-size: 1.75rem;
+        font-weight: 400;
+      }
+      &__title {
+        margin: 1rem 0;
+        h4 {
+          font-size: 1.25rem;
+          font-weight: 400;
+          color: $demoColour;
+          margin-bottom: 0.5rem;
+        }
+      }
+      p {
+        font-weight: 200;
+        font-size: 1rem;
+
+        color: $pFont;
+      }
+      &__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 1rem 0;
+        padding: 0.5rem 1rem;
+        width: 50%;
+        cursor: pointer;
+        background: $demoColour;
+        border: solid 2px $demoColour;
+        color: $demoBackground;
+        transition: all 0.25s ease-in;
+        svg {
+          fill: $demoBackground;
+          width: 1.55rem;
+          margin-right: 1rem;
+          transition: all 0.25s ease-in;
+        }
+        p {
+          font-weight: 200;
+          font-size: 1.05rem;
+          color: $demoBackground;
+          text-decoration: none !important;
+          transition: all 0.25s ease-in;
+        }
+      }
+      &__social {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        a {
+          width: 100%;
+          .contact__wrapper__inner__social__btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.4rem 0.3rem;
+            svg {
+              width: 1rem;
+            }
+            p {
+              padding-left: 5px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+      .linkedin {
+        background: $linkedin;
+        border: solid 2px $linkedin;
+        color: $pFont;
+
+        svg {
+          fill: $pFont;
+        }
+
+        &:hover,
+        &:active {
+          background: $linkedin;
+          border: solid 2px $linkedin;
+          color: $notWhite;
+        }
+        &:hover svg {
+          fill: $notWhite;
+        }
+
+        &:hover p {
+          color: $notWhite;
+        }
+      }
+      .github {
+        background: $github;
+        border: solid 2px $github;
+        color: $pFont;
+        svg {
+          fill: $pFont;
+        }
+        &:hover,
+        &:active {
+          background: $github;
+          border: solid 2px $github;
+          color: $notWhite;
+        }
+        &:hover svg {
+          fill: $notWhite;
+        }
+
+        &:hover p {
+          color: $notWhite;
+        }
+      }
+      .spotify {
+        background: $spotify;
+        border: solid 2px $spotify;
+        color: $pFont;
+        svg {
+          fill: $pFont;
+        }
+        &:hover,
+        &:active {
+          background: $spotify;
+          border: solid 2px $spotify;
+          color: $notWhite;
+        }
+        &:hover svg {
+          fill: $notWhite;
+        }
+
+        &:hover p {
+          color: $notWhite;
+        }
+      }
+    }
+    &__footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 80%);
+      background: $demoBackground;
+    }
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .contact__wrapper {
+    padding-top: 6rem;
+    &__inner {
+      h2 {
+        font-size: 2.25rem;
+      }
+      p {
+        font-size: 1.15rem;
+      }
+      &__title {
+        h4 {
+          padding-top: 0.85rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact__wrapper {
+    &__inner {
+      padding-top: 5.5rem;
+      width: 70%;
+      margin: 0 22% 0 8%;
+      h2 {
+        font-size: 2.7rem;
+      }
+      p {
+        font-size: 1.25rem;
+      }
+      h4 {
+        font-size: 1.45rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact__wrapper {
+    &__inner {
+      padding-top: 8rem;
+      width: 70%;
+      margin: 0 22% 0 8%;
+      h2 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.15rem;
+      }
+      h4 {
+        font-size: 1.45rem;
+      }
+      &__links {
+        width: 25%;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import "../partials/variables";
+
+@media only screen and (min-width: 320px) {
+  .main__body__wrapper {
+    height: 100%;
+    width: 100%;
+    &__page {
+      width: 100%;
+      height: 150vh;
+      background: $demoBackground;
+      position: sticky;
+      top: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .main__body__wrapper {
+    .desktop__display__gird {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      .desktop__display__gird--one {
+        .header__wrapper {
+          height: 100vh;
+        }
+      }
+    }
+  }
+}

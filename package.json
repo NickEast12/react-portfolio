@@ -1,0 +1,52 @@
+{
+  "name": "react-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "concurrently": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-inlinesvg": "^1.2.0",
+    "react-items-carousel": "^2.8.0",
+    "react-multi-carousel": "^2.5.5",
+    "react-particles-js": "^3.0.3",
+    "react-responsive-carousel": "^3.2.4",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16",
+    "react-spring": "^8.0.27",
+    "react-touch-carousel": "^0.9.4"
+  },
+  "scripts": {
+    "dev": "concurrently \" gulp watch_scss \" \"npm run start\" --names \"📦 💻,\" --prefix name",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

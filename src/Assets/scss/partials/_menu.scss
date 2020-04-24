@@ -1,0 +1,71 @@
+@media only screen and (min-width: 320px) {
+  .menu__button {
+    width: 90%;
+    margin: 0 5%;
+    position: fixed;
+    top: calc(0% + 1rem);
+    left: 0;
+    z-index: 100;
+    border-radius: 20px;
+
+    img {
+      width: 17%;
+      position: relative;
+      z-index: 1001;
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+      transform: rotate(20deg);
+    }
+  }
+  .menu__wrapper {
+    border-radius: 20px;
+    padding: 1.5rem;
+    background: #fff;
+    position: absolute;
+    display: none;
+    width: 90%;
+    top: 0;
+    left: 0;
+    padding-top: 4rem;
+    h3 {
+      position: absolute;
+      top: 5%;
+      right: 37%;
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: $demoBackground;
+    }
+    &__item {
+      margin: 1rem 0;
+      color: $demoBackground;
+      h4 {
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .menu__button {
+    top: calc(0% + 2.25rem);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu__button {
+    img {
+      width: 10%;
+    }
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .menu__button {
+    img {
+      width: 7%;
+    }
+  }
+}

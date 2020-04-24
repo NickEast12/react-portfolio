@@ -1,0 +1,181 @@
+@import "variables";
+@media only screen and (min-width: 320px) {
+  .projects__wrapper {
+    background: #fff;
+    height: 150vh;
+    padding-top: 2rem;
+    &__inner {
+      width: 85%;
+      margin: 0 auto;
+      padding: 2.5rem 0 4rem 0;
+      &__title {
+        padding-bottom: 2.5rem;
+        color: $demoBackground;
+        h2 {
+          font-size: 1.75rem;
+          font-weight: 400;
+        }
+        p {
+          // color: $otherFont;
+          font-size: 1rem;
+          line-height: 20px;
+        }
+      }
+      .project__card {
+        position: relative;
+        margin: 0 0.5rem;
+        &__img {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          &:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: $demoBackground;
+            content: "";
+            width: 100%;
+            height: 97%;
+            z-index: 5;
+            opacity: 0.45;
+            border-radius: 15px;
+          }
+          img {
+            width: 100%;
+            height: 20rem;
+            border-radius: 15px;
+          }
+        }
+        &__content {
+          position: absolute;
+          width: 100%;
+          padding: 0 7.5%;
+          bottom: calc(0% + 1.75rem);
+          color: #fff;
+          z-index: 6;
+          h3 {
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            letter-spacing: -0.1px;
+            font-size: 1.2rem;
+          }
+          p {
+            line-height: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+          }
+          &__links {
+            svg {
+              fill: $pFont;
+              width: 1.5rem;
+              margin: 0.75rem 1rem 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 375px) {
+  .projects__wrapper {
+    padding-top: 5rem;
+    &__inner {
+      &__title {
+        h2 {
+          font-size: 2.25rem;
+        }
+        p {
+          font-size: 1.05rem;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 414px) {
+  .projects__wrapper {
+    &__inner {
+      .project__card {
+        img {
+          height: 25rem;
+        }
+        &__img {
+          &:after {
+            height: 98%;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .projects__wrapper {
+    &__inner {
+      .project__card {
+        img {
+          height: 25.5rem;
+        }
+        &__img {
+          &:after {
+            height: 98%;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .projects__wrapper {
+    &__inner {
+      padding-top: 5.5rem;
+      &__title {
+        width: 70%;
+        h2 {
+          font-size: 2.7rem;
+        }
+        p {
+          font-size: 1.25rem;
+        }
+      }
+      .project__card {
+        img {
+          height: 30.5rem;
+        }
+        &__img {
+          &:after {
+            height: 98%;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .projects__wrapper {
+    &__inner {
+      padding-top: 1rem;
+      &__title {
+        width: 70%;
+        h2 {
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: 1.15rem;
+        }
+      }
+      .project__card {
+        img {
+          height: 25rem;
+        }
+        &__img {
+          &:after {
+            height: 98%;
+          }
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

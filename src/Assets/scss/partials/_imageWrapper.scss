@@ -1,0 +1,24 @@
+@import "variables";
+
+.image__wrapper {
+  &__container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    &:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: $demoColour;
+      opacity: 0.45;
+      z-index: 3;
+    }
+  }
+}

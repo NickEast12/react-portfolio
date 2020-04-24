@@ -1,0 +1,66 @@
+@import "../partials/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $mainFont;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: $demoBackground;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.def__button {
+  width: 75%;
+  text-align: center;
+  border-radius: 30px;
+  padding: 0.5rem 0;
+  background: none;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.outline__button {
+  border: solid 2px $demoColour;
+  color: $demoColour;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    background: $demoColour;
+    color: $demoBackground;
+  }
+}
+
+.full__button {
+  border: solid 2px $demoColour;
+  color: $demoBackground;
+  background: $demoColour;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    background: none;
+    color: $demoColour;
+  }
+}
+
+.seperator {
+  width: 100%;
+  height: 100vh;
+  background: yellowgreen;
+  position: sticky;
+  top: 0;
+
+  h1 {
+    color: black;
+    font-size: 2rem;
+  }
+}

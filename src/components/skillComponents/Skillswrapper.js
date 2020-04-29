@@ -43,7 +43,7 @@ class Skillswrapper extends Component {
               <p>SCSS</p>
               <p>JavaScript</p>
               <p>React.JS</p>
-              <p>Gadsby.JS</p>
+              <p>Gatsby.JS</p>
               <p>WordPress</p>
             </div>
           </div>

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Headerwrapper from "../headerComponents/headerwrapper";
 import Imagewrapper from "../imageComponents/imageWrapper";
-import Aboutwrapper from "../aboutComponent/aboutComponent";
-import Projectswrapper from "../projectsComponent/projectsWrapper";
-import Skillswrapper from "../skillComponent/Skillswrapper";
+import Aboutwrapper from "../aboutComponents/aboutComponent";
+import Projectswrapper from "../projectsComponents/projectsWrapper";
+import Skillswrapper from "../skillComponents/Skillswrapper";
 import ContactWrapper from "../contactComponents/contactwrapper";
 import Menu from "../menuComponents/menuComponent";
 

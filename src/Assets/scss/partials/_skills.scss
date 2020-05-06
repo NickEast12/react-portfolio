@@ -3,9 +3,7 @@
 @media only screen and (min-width: 320px) {
   .skills__wrapper {
     background: $otherFont;
-    height: 200vh;
-    padding-top: 2rem;
-
+    height: 100%;
     &__inner {
       width: 85%;
       margin: 0 auto;
@@ -70,11 +68,10 @@
 
 @media only screen and (min-width: 375px) {
   .skills__wrapper {
-    padding-top: 5rem;
     &__inner {
       &__title {
         h2 {
-          font-size: 2.25rem;
+          font-size: 2rem;
         }
         p {
           font-size: 1.05rem;
@@ -113,9 +110,9 @@
 @media only screen and (min-width: 768px) {
   .skills__wrapper {
     &__inner {
-      padding-top: 5.5rem;
+      padding: 4.5rem 0;
       &__title {
-        width: 70%;
+        width: 80%;
         h2 {
           font-size: 2.7rem;
         }
@@ -132,6 +129,7 @@
         }
         p {
           font-size: 1.15rem;
+          padding: 0.55rem;
         }
       }
     }
@@ -139,12 +137,13 @@
 }
 @media only screen and (min-width: 1280px) {
   .skills__wrapper {
+    height: 100vh;
     &__inner {
-      padding-top: 1rem;
+      padding-top: 5rem;
       &__title {
-        width: 70%;
+        width: 80%;
         h2 {
-          font-size: 2.5rem;
+          font-size: 2rem;
         }
         p {
           font-size: 1.15rem;

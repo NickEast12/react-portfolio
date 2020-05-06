@@ -14,26 +14,26 @@ class Headerwrapper extends Component {
                 value: 50,
                 density: {
                   enable: true,
-                  value_area: 800
-                }
+                  value_area: 800,
+                },
               },
               color: {
-                value: "#ff7a8b"
+                value: "#ff7a8b",
               },
               shape: {
                 type: "circle",
                 stroke: {
                   width: 0,
-                  color: "#000000"
+                  color: "#000000",
                 },
                 polygon: {
-                  nb_sides: 5
+                  nb_sides: 5,
                 },
                 image: {
                   src: "img/github.svg",
                   width: 100,
-                  height: 100
-                }
+                  height: 100,
+                },
               },
               opacity: {
                 value: 0.3551164387345227,
@@ -42,8 +42,8 @@ class Headerwrapper extends Component {
                   enable: false,
                   speed: 1,
                   opacity_min: 0.1,
-                  sync: false
-                }
+                  sync: false,
+                },
               },
               size: {
                 value: 2,
@@ -52,15 +52,15 @@ class Headerwrapper extends Component {
                   enable: false,
                   speed: 40,
                   size_min: 0.1,
-                  sync: false
-                }
+                  sync: false,
+                },
               },
               line_linked: {
                 enable: true,
                 distance: 150,
                 color: "#ff7a8b",
                 opacity: 0.4,
-                width: 1
+                width: 1,
               },
               move: {
                 enable: true,
@@ -73,50 +73,50 @@ class Headerwrapper extends Component {
                 attract: {
                   enable: false,
                   rotateX: 600,
-                  rotateY: 1200
-                }
-              }
+                  rotateY: 1200,
+                },
+              },
             },
             interactivity: {
               detect_on: "canvas",
               events: {
                 onhover: {
                   enable: false,
-                  mode: "repulse"
+                  mode: "repulse",
                 },
                 onclick: {
                   enable: false,
-                  mode: "bubble"
+                  mode: "bubble",
                 },
-                resize: true
+                resize: true,
               },
               modes: {
                 grab: {
                   distance: 400,
                   line_linked: {
-                    opacity: 1
-                  }
+                    opacity: 1,
+                  },
                 },
                 bubble: {
                   distance: 400,
                   size: 40,
                   duration: 2,
                   opacity: 8,
-                  speed: 7
+                  speed: 7,
                 },
                 repulse: {
                   distance: 200,
-                  duration: 0.4
+                  duration: 0.4,
                 },
                 push: {
-                  particles_nb: 4
+                  particles_nb: 4,
                 },
                 remove: {
-                  particles_nb: 2
-                }
-              }
+                  particles_nb: 2,
+                },
+              },
             },
-            retina_detect: true
+            retina_detect: true,
           }}
         />
         <div className="header__wrapper__title">
@@ -126,7 +126,7 @@ class Headerwrapper extends Component {
             <Link
               activeClass="active"
               to="projects"
-              spy={true}
+              spy={false}
               smooth={true}
               offset={0}
               duration={1000}
@@ -138,7 +138,7 @@ class Headerwrapper extends Component {
             <Link
               activeClass="active"
               to="contact"
-              spy={true}
+              spy={false}
               smooth={true}
               offset={0}
               duration={1000}

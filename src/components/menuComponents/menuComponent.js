@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const Menu = () => {
   const [isToggled, setToggle] = useState(false);
   const fade = useSpring({
-    opacity: isToggled ? 1 : 0
+    opacity: isToggled ? 1 : 0,
   });
 
   return (
@@ -27,7 +27,7 @@ const Menu = () => {
         >
           <div className="menu__wrapper__item">
             <h4>About</h4>
-            <p>just siome small text to desctibe</p>
+            <p>A short introduction</p>
           </div>
         </Link>
         <Link
@@ -40,7 +40,7 @@ const Menu = () => {
         >
           <div className="menu__wrapper__item">
             <h4>Projects</h4>
-            <p>just siome small text to desctibe </p>
+            <p>My most recent projects</p>
           </div>
         </Link>
         <Link
@@ -53,7 +53,7 @@ const Menu = () => {
         >
           <div className="menu__wrapper__item">
             <h4>Skills</h4>
-            <p>just siome small text to desctibe</p>
+            <p>My current loadout</p>
           </div>
         </Link>
         <Link
@@ -66,7 +66,7 @@ const Menu = () => {
         >
           <div className="menu__wrapper__item">
             <h4>Contact</h4>
-            <p>just siome small text to desctibe </p>
+            <p>Send me a message</p>
           </div>
         </Link>
       </animated.div>

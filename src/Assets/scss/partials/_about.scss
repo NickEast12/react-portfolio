@@ -4,7 +4,6 @@
   .about__wrapper {
     background: $otherFont;
     height: 100%;
-    padding-top: 2rem;
     position: relative;
     &__inner {
       width: 85%;
@@ -41,8 +40,6 @@
 }
 @media only screen and (min-width: 375px) {
   .about__wrapper {
-    padding-top: 5rem;
-
     &__inner {
       h2 {
         font-size: 2rem;
@@ -61,8 +58,6 @@
 }
 @media only screen and (min-width: 414px) {
   .about__wrapper {
-    position: sticky;
-    height: 150vh;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -70,14 +65,14 @@
     &__inner {
       width: 70%;
       margin: 0 22% 0 8%;
-      padding-top: 5.5rem;
+      padding: 4.5rem 0;
       h2 {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
       }
       &__section {
         margin-bottom: 0.75rem;
         h4 {
-          font-size: 1.75rem;
+          font-size: 1.5rem;
           line-height: 1.95rem;
         }
         h3 {
@@ -93,17 +88,18 @@
 }
 @media only screen and (min-width: 1280px) {
   .about__wrapper {
+    height: 100vh;
     &__inner {
-      width: 70%;
-      margin: 0 22% 0 8%;
-      padding-top: 2rem;
+      width: 80%;
+      margin: 0 1¡2% 0 8%;
+      padding-top: 5rem;
       h2 {
-        font-size: 2.5rem;
+        font-size: 2.15rem;
       }
       &__section {
         margin-bottom: 0.75rem;
         h4 {
-          font-size: 1.45rem;
+          font-size: 1.25rem;
         }
         h3 {
           font-size: 1.5rem;

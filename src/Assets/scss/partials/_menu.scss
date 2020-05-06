@@ -22,7 +22,6 @@
     padding: 1.5rem;
     background: #fff;
     position: absolute;
-    display: none;
     width: 90%;
     top: 0;
     left: 0;
@@ -67,5 +66,9 @@
     img {
       width: 7%;
     }
+  }
+  .menu__wrapper {
+    width: 25%;
+    padding-top: 5rem;
   }
 }

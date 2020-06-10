@@ -5,7 +5,7 @@ class Imagewrapper extends Component {
     return (
       <section className="main__body__wrapper__page image__wrapper">
         <div className="image__wrapper__container">
-          <img src="/images/me.png" alt="Nick East" />
+          <img src="/images/woman1-min.jpg" alt="Nick East" />
         </div>
       </section>
     );

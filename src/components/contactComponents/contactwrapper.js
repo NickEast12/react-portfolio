@@ -17,26 +17,26 @@ class ContactWrapper extends Component {
                 value: 60,
                 density: {
                   enable: true,
-                  value_area: 800
-                }
+                  value_area: 800,
+                },
               },
               color: {
-                value: "#ff7a8b"
+                value: "#ff7a8b",
               },
               shape: {
                 type: "circle",
                 stroke: {
                   width: 0,
-                  color: "#000000"
+                  color: "#000000",
                 },
                 polygon: {
-                  nb_sides: 5
+                  nb_sides: 5,
                 },
                 image: {
                   src: "img/github.svg",
                   width: 100,
-                  height: 100
-                }
+                  height: 100,
+                },
               },
               opacity: {
                 value: 0.3551164387345227,
@@ -45,8 +45,8 @@ class ContactWrapper extends Component {
                   enable: false,
                   speed: 1,
                   opacity_min: 0.1,
-                  sync: false
-                }
+                  sync: false,
+                },
               },
               size: {
                 value: 2,
@@ -55,15 +55,15 @@ class ContactWrapper extends Component {
                   enable: false,
                   speed: 40,
                   size_min: 0.1,
-                  sync: false
-                }
+                  sync: false,
+                },
               },
               line_linked: {
                 enable: true,
                 distance: 150,
                 color: "#ff7a8b",
                 opacity: 0.4,
-                width: 1
+                width: 1,
               },
               move: {
                 enable: true,
@@ -76,50 +76,50 @@ class ContactWrapper extends Component {
                 attract: {
                   enable: false,
                   rotateX: 600,
-                  rotateY: 1200
-                }
-              }
+                  rotateY: 1200,
+                },
+              },
             },
             interactivity: {
               detect_on: "canvas",
               events: {
                 onhover: {
                   enable: false,
-                  mode: "repulse"
+                  mode: "repulse",
                 },
                 onclick: {
                   enable: false,
-                  mode: "bubble"
+                  mode: "bubble",
                 },
-                resize: true
+                resize: true,
               },
               modes: {
                 grab: {
                   distance: 400,
                   line_linked: {
-                    opacity: 1
-                  }
+                    opacity: 1,
+                  },
                 },
                 bubble: {
                   distance: 400,
                   size: 40,
                   duration: 2,
                   opacity: 8,
-                  speed: 7
+                  speed: 7,
                 },
                 repulse: {
                   distance: 200,
-                  duration: 0.4
+                  duration: 0.4,
                 },
                 push: {
-                  particles_nb: 4
+                  particles_nb: 4,
                 },
                 remove: {
-                  particles_nb: 2
-                }
-              }
+                  particles_nb: 2,
+                },
+              },
             },
-            retina_detect: true
+            retina_detect: true,
           }}
         />
         <div className="contact__wrapper__inner">
@@ -131,7 +131,7 @@ class ContactWrapper extends Component {
               send me an email to say Hi?
             </p>
           </div>
-          <a href="mailto:nick_east@yahoo.com">
+          <a href="/">
             <div className="contact__wrapper__inner__links def__button email">
               <SVG src="/images/icons/002-telegram.svg" />
               <p>Email</p>
@@ -141,31 +141,19 @@ class ContactWrapper extends Component {
             <h4>Or find me online..</h4>
           </div>
           <div className="contact__wrapper__inner__social">
-            <a
-              href="https://www.linkedin.com/in/nick-east-229972136/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="/">
               <div className="contact__wrapper__inner__social__btn linkedin ">
                 <SVG src="/images/icons/001-linkedin.svg" />
                 <p>Linkedin</p>
               </div>
             </a>
-            <a
-              href="https://github.com/NickEast12"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="/">
               <div className="contact__wrapper__inner__social__btn  github">
                 <SVG src="/images/icons/003-github.svg" />
                 <p>GitHub</p>
               </div>
             </a>
-            <a
-              href="https://open.spotify.com/user/nickeast12?si=C0Wr_Y66QXarUoJWH4aGQQ"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="/">
               <div className="contact__wrapper__inner__social__btn spotify ">
                 <SVG src="/images/icons/004-spotify.svg" />
                 <p>Spotify</p>

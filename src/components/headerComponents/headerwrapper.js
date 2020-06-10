@@ -120,7 +120,7 @@ class Headerwrapper extends Component {
           }}
         />
         <div className="header__wrapper__title">
-          <h1>Hi, I'm Nick and I'm a Front End Web Developer</h1>
+          <h1>Hi, I'm Lee and I'm a Front End Web Developer</h1>
           <p>I build websites and apps using the latest web technologies</p>
           <div className="header__wrapper__button__wrapper">
             <Link
@@ -152,23 +152,11 @@ class Headerwrapper extends Component {
             <p>
               Find me at{" "}
               <span>
-                <a
-                  href="https://github.com/NickEast12"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github
-                </a>
+                <a href="/">Github</a>
               </span>{" "}
               and
               <span>
-                <a
-                  href="https://www.linkedin.com/in/nick-east-229972136/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn
-                </a>
+                <a href="/">LinkedIn</a>
               </span>
             </p>
             <p>Built in React</p>

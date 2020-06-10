@@ -40,6 +40,7 @@
 }
 @media only screen and (min-width: 375px) {
   .about__wrapper {
+    height: 100vh;
     &__inner {
       h2 {
         font-size: 2rem;
@@ -58,6 +59,7 @@
 }
 @media only screen and (min-width: 414px) {
   .about__wrapper {
+
   }
 }
 @media only screen and (min-width: 768px) {
